@@ -27,7 +27,7 @@ class ResultController extends GetxController {
 
   Future fetchProducts() async {
     try {
-      var url = "http://10.0.2.2:8000/recommendations";
+      var url = "https://modern-krill-fair.ngrok-free.app/recommendations";
       var inputAnswer = json.encode(answer);
       await http
           .post(Uri.parse(url),

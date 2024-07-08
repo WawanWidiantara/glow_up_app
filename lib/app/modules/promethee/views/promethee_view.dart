@@ -15,7 +15,17 @@ class PrometheeView extends GetView<PrometheeController> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              SizedBox(
+                  width: 250,
+                  height: 250,
+                  child: Image.asset(
+                    "assets/images/illustration.png",
+                  )),
+              SizedBox(
+                height: 16,
+              ),
               Text(
                 'Rekomendasi Skincare Personal Anda Menanti',
                 style: TextStyle(

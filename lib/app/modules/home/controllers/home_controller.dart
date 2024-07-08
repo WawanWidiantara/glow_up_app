@@ -31,7 +31,7 @@ class HomeController extends GetxController {
 
   Future fetchProducts() async {
     try {
-      var url = "http://10.0.2.2:8000/products";
+      var url = "https://modern-krill-fair.ngrok-free.app/products";
       final response = await http.get(Uri.parse(url));
       var result = json.decode(response.body);
       final jsonItems = result.cast<Map<String, dynamic>>();
