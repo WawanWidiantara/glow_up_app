@@ -14,7 +14,6 @@
 
 - **Flutter**: A cross-platform development framework that enables the creation of a rich and responsive user interface.
 - **Fuzzy Logic**: An AI-based decision-making method that processes skin type and condition data to provide personalized recommendations.
-- **Firebase** (optional): For authentication and storing user preferences and saved recommendations.
 
 ## 🛠️ Prerequisites
 
